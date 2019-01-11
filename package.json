@@ -1,0 +1,34 @@
+{
+  "name": "hertzscript-isolate",
+  "version": "0.1.0",
+  "description": "Multi-isolate multitasking in V8 using HertzScript coroutines.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Floofies/hertzscript-isolate.git"
+  },
+  "keywords": [
+    "v8",
+    "isolate",
+    "multithread",
+    "green",
+    "threads"
+  ],
+  "author": {
+    "name": "Vicente Eduardo Ferrer Garcia",
+    "email": "vic798@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Floofies/hertzscript-isolate/issues"
+  },
+  "homepage": "https://github.com/Floofies/hertzscript-isolate#readme",
+  "dependencies": {
+    "hertzscript-compiler": "0.0.5",
+    "hertzscript-dispatcher": "0.0.6",
+    "isolated-vm": "^1.7.7"
+  }
+}
